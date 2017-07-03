@@ -36,6 +36,6 @@ public class ListaDeCursosActivity extends AppCompatActivity {
         return new ArrayList<>(Arrays.asList(
                 new Curso("Java", "básico de Java", EstadoAtual.FINALIZADO),
                 new Curso("HTML e CSS", "HTML 5 e suas novidades", EstadoAtual.FAZENDO),
-                new Curso("Java", "básico de Java", EstadoAtual.FINALIZADO)));
+                new Curso("Android", "boas práticas", EstadoAtual.FINALIZADO)));
     }
 }
