@@ -9,11 +9,13 @@ public class Curso {
     private String nome;
     private String descricao;
     private EstadoAtual estado;
+    private Categoria categoria;
 
-    public Curso(String nome, String descricao, EstadoAtual estado) {
+    public Curso(String nome, String descricao, EstadoAtual estado, Categoria categoria) {
         this.nome = nome;
         this.descricao = descricao;
         this.estado = estado;
+        this.categoria = categoria;
     }
 
     public String getNome() {
@@ -38,6 +40,14 @@ public class Curso {
 
     public void setEstado(EstadoAtual estado) {
         this.estado = estado;
+    }
+
+    public Categoria getCategoria() {
+        return categoria;
+    }
+
+    public void setCategoria(Categoria categoria) {
+        this.categoria = categoria;
     }
 
     @Override
